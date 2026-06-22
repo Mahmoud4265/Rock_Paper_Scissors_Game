@@ -1,8 +1,9 @@
+# This is a simple implementation of the Rock, Paper, Scissors game in Python. 
 import random
-options=['rock', 'paper', 'scissors']
-
 print("🎮 Welcome to Rock, Paper, Scissors!")
 print("Type 'q' to quit.\n")
+
+options = ['rock', 'paper', 'scissors']
 
 while True:
     user_choice = input("Choose rock, paper, or scissors: ").lower()
